@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{0D589C86-DD22-48FF-9BDC-280622F46C00}</ProjectGuid>
+    <RootNamespace>DECOSalpha</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CoordinatorReal.cpp" />
+    <ClCompile Include="CRC.cpp" />
+    <ClCompile Include="DEAPIProtocol.cpp" />
+    <ClCompile Include="DECOS_alpha.cpp" />
+    <ClCompile Include="Equipment_REMS.cpp" />
+    <ClCompile Include="Inverter_ABBI.cpp" />
+    <ClCompile Include="Inverter_DASS.cpp" />
+    <ClCompile Include="Inverter_EKOS.cpp" />
+    <ClCompile Include="Inverter_E_P3.cpp" />
+    <ClCompile Include="Inverter_E_P5.cpp" />
+    <ClCompile Include="Inverter_HANS.cpp" />
+    <ClCompile Include="Inverter_HEXP.cpp" />
+    <ClCompile Include="Inverter_REFU.cpp" />
+    <ClCompile Include="Inverter_SUNG.cpp" />
+    <ClCompile Include="Inverter_WILL.cpp" />
+    <ClCompile Include="MyDevice.cpp" />
+    <ClCompile Include="DlgProc_AddDevice.cpp" />
+    <ClCompile Include="DlgProc_ConnectTerminal.cpp" />
+    <ClCompile Include="DlgProc_Coordi.cpp" />
+    <ClCompile Include="DlgProc_Etc.cpp" />
+    <ClCompile Include="DlgProc_HostPC.cpp" />
+    <ClCompile Include="DlgProc_Inverter.cpp" />
+    <ClCompile Include="MyDeviceHandler.cpp" />
+    <ClCompile Include="MyFunc.cpp" />
+    <ClCompile Include="MyTcp.cpp" />
+    <ClCompile Include="Procedure_CLB.cpp" />
+    <ClCompile Include="Procedure_CLT.cpp" />
+    <ClCompile Include="Procedure_CRB.cpp" />
+    <ClCompile Include="Procedure_CRT.cpp" />
+    <ClCompile Include="SerialComm.cpp" />
+    <ClCompile Include="SerialCommHandler.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CoordinatorReal.h" />
+    <ClInclude Include="CRC.h" />
+    <ClInclude Include="DEAPIProtocol.h" />
+    <ClInclude Include="DECOS_alpha.h" />
+    <ClInclude Include="Equipment_REMS.h" />
+    <ClInclude Include="Inverter_ABBI.h" />
+    <ClInclude Include="Inverter_DASS.h" />
+    <ClInclude Include="Inverter_EKOS.h" />
+    <ClInclude Include="Inverter_E_P3.h" />
+    <ClInclude Include="Inverter_E_P5.h" />
+    <ClInclude Include="Inverter_HANS.h" />
+    <ClInclude Include="Inverter_HEXP.h" />
+    <ClInclude Include="Inverter_REFU.h" />
+    <ClInclude Include="Inverter_SUNG.h" />
+    <ClInclude Include="Inverter_WILL.h" />
+    <ClInclude Include="MyDevice.h" />
+    <ClInclude Include="DlgProc_AddDevice.h" />
+    <ClInclude Include="DlgProc_ConnectTerminal.h" />
+    <ClInclude Include="DlgProc_Coordi.h" />
+    <ClInclude Include="DlgProc_Etc.h" />
+    <ClInclude Include="DlgProc_HostPC.h" />
+    <ClInclude Include="DlgProc_Inverter.h" />
+    <ClInclude Include="MyDeviceHandler.h" />
+    <ClInclude Include="MyFunc.h" />
+    <ClInclude Include="MyTcp.h" />
+    <ClInclude Include="Procedure_CLT.h" />
+    <ClInclude Include="Procedure_CLB.h" />
+    <ClInclude Include="Procedure_CRB.h" />
+    <ClInclude Include="Procedure_CRT.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SerialComm.h" />
+    <ClInclude Include="SerialCommHandler.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DECOS_alpha.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cursor1.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico" />
+    <Image Include="대은로고_축소2.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

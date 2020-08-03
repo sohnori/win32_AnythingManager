@@ -1,0 +1,88 @@
+﻿  CoordinatorReal.cpp
+  DEAPIProtocol.cpp
+  DECOS_alpha.cpp
+c:\users\sohno\source\repos\apiexam\decos_alpha\serialcommcontrol.h(24): warning C4200: 비표준 확장이 사용됨: 구조체/공용 구조체의 배열 크기가 0입니다.
+  c:\users\sohno\source\repos\apiexam\decos_alpha\serialcommcontrol.h(24): note: 이 멤버는 기본값으로 설정된 생성자 또는 복사/이동 대입 연산자에서 무시됩니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\devicecontrol.h(14): warning C4200: 비표준 확장이 사용됨: 구조체/공용 구조체의 배열 크기가 0입니다.
+  c:\users\sohno\source\repos\apiexam\decos_alpha\devicecontrol.h(14): note: 이 멤버는 기본값으로 설정된 생성자 또는 복사/이동 대입 연산자에서 무시됩니다.
+  MyFunc.cpp
+c:\users\sohno\source\repos\apiexam\decos_alpha\myfunc.cpp(225): warning C4309: 'return': 상수 값이 잘립니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\myfunc.cpp(234): warning C4309: 'return': 상수 값이 잘립니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\myfunc.cpp(239): warning C4309: 'return': 상수 값이 잘립니다.
+  Procedure_CLT.cpp
+c:\users\sohno\source\repos\apiexam\decos_alpha\serialcommcontrol.h(24): warning C4200: 비표준 확장이 사용됨: 구조체/공용 구조체의 배열 크기가 0입니다.
+  c:\users\sohno\source\repos\apiexam\decos_alpha\serialcommcontrol.h(24): note: 이 멤버는 기본값으로 설정된 생성자 또는 복사/이동 대입 연산자에서 무시됩니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\devicecontrol.h(14): warning C4200: 비표준 확장이 사용됨: 구조체/공용 구조체의 배열 크기가 0입니다.
+  c:\users\sohno\source\repos\apiexam\decos_alpha\devicecontrol.h(14): note: 이 멤버는 기본값으로 설정된 생성자 또는 복사/이동 대입 연산자에서 무시됩니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_clt.cpp(172): warning C4244: '=': 'LRESULT'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_clt.cpp(180): error C2664: 'INT_PTR DialogBoxParamA(HINSTANCE,LPCSTR,HWND,DLGPROC,LPARAM)': 인수 4을(를) 'BOOL (__cdecl *)(HWND,UINT,WPARAM,LPARAM)'에서 'DLGPROC'(으)로 변환할 수 없습니다.
+  c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_clt.cpp(180): note: 대상 형식과 일치하는 범위에 이름이 같은 함수가 없습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_clt.cpp(184): error C2664: 'INT_PTR DialogBoxParamA(HINSTANCE,LPCSTR,HWND,DLGPROC,LPARAM)': 인수 4을(를) 'BOOL (__cdecl *)(HWND,UINT,WPARAM,LPARAM)'에서 'DLGPROC'(으)로 변환할 수 없습니다.
+  c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_clt.cpp(184): note: 대상 형식과 일치하는 범위에 이름이 같은 함수가 없습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_clt.cpp(196): warning C4244: '=': 'LRESULT'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_clt.cpp(213): warning C4244: '=': 'LRESULT'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_clt.cpp(221): warning C4244: '=': 'LRESULT'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_clt.cpp(230): warning C4244: '=': 'LRESULT'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_clt.cpp(235): warning C4244: '=': 'LRESULT'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_clt.cpp(241): warning C4244: '=': 'LRESULT'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_clt.cpp(246): warning C4244: '=': 'LRESULT'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_clt.cpp(270): warning C4244: '=': 'LRESULT'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_clt.cpp(342): warning C4244: '초기화 중': 'LRESULT'에서 'TCHAR'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_clt.cpp(395): warning C4244: '=': 'LRESULT'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_clt.cpp(426): error C2664: 'HWND CreateDialogParamA(HINSTANCE,LPCSTR,HWND,DLGPROC,LPARAM)': 인수 4을(를) 'BOOL (__cdecl *)(HWND,UINT,WPARAM,LPARAM)'에서 'DLGPROC'(으)로 변환할 수 없습니다.
+  c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_clt.cpp(426): note: 대상 형식과 일치하는 범위에 이름이 같은 함수가 없습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_clt.cpp(545): warning C4244: '=': 'LRESULT'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_clt.cpp(571): warning C4244: '=': 'LRESULT'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_clt.cpp(580): warning C4244: '=': 'LRESULT'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_clt.cpp(589): warning C4244: '=': 'LRESULT'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_clt.cpp(600): warning C4244: '=': 'LRESULT'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_clt.cpp(611): warning C4244: '=': 'LRESULT'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Procedure_CRB.cpp
+c:\users\sohno\source\repos\apiexam\decos_alpha\serialcommcontrol.h(24): warning C4200: 비표준 확장이 사용됨: 구조체/공용 구조체의 배열 크기가 0입니다.
+  c:\users\sohno\source\repos\apiexam\decos_alpha\serialcommcontrol.h(24): note: 이 멤버는 기본값으로 설정된 생성자 또는 복사/이동 대입 연산자에서 무시됩니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\devicecontrol.h(14): warning C4200: 비표준 확장이 사용됨: 구조체/공용 구조체의 배열 크기가 0입니다.
+  c:\users\sohno\source\repos\apiexam\decos_alpha\devicecontrol.h(14): note: 이 멤버는 기본값으로 설정된 생성자 또는 복사/이동 대입 연산자에서 무시됩니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_crb.cpp(155): warning C4244: '=': 'LRESULT'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_crb.cpp(141): warning C4101: 'rt' :참조되지 않은 지역 변수입니다.
+  Procedure_CRT.cpp
+c:\users\sohno\source\repos\apiexam\decos_alpha\serialcommcontrol.h(24): warning C4200: 비표준 확장이 사용됨: 구조체/공용 구조체의 배열 크기가 0입니다.
+  c:\users\sohno\source\repos\apiexam\decos_alpha\serialcommcontrol.h(24): note: 이 멤버는 기본값으로 설정된 생성자 또는 복사/이동 대입 연산자에서 무시됩니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\devicecontrol.h(14): warning C4200: 비표준 확장이 사용됨: 구조체/공용 구조체의 배열 크기가 0입니다.
+  c:\users\sohno\source\repos\apiexam\decos_alpha\devicecontrol.h(14): note: 이 멤버는 기본값으로 설정된 생성자 또는 복사/이동 대입 연산자에서 무시됩니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_crt.cpp(71): error C2664: 'HWND CreateDialogParamA(HINSTANCE,LPCSTR,HWND,DLGPROC,LPARAM)': 인수 4을(를) 'BOOL (__cdecl *)(HWND,UINT,WPARAM,LPARAM)'에서 'DLGPROC'(으)로 변환할 수 없습니다.
+  c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_crt.cpp(71): note: 대상 형식과 일치하는 범위에 이름이 같은 함수가 없습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_crt.cpp(76): error C2664: 'HWND CreateDialogParamA(HINSTANCE,LPCSTR,HWND,DLGPROC,LPARAM)': 인수 4을(를) 'BOOL (__cdecl *)(HWND,UINT,WPARAM,LPARAM)'에서 'DLGPROC'(으)로 변환할 수 없습니다.
+  c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_crt.cpp(76): note: 대상 형식과 일치하는 범위에 이름이 같은 함수가 없습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_crt.cpp(80): error C2664: 'HWND CreateDialogParamA(HINSTANCE,LPCSTR,HWND,DLGPROC,LPARAM)': 인수 4을(를) 'BOOL (__cdecl *)(HWND,UINT,WPARAM,LPARAM)'에서 'DLGPROC'(으)로 변환할 수 없습니다.
+  c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_crt.cpp(80): note: 대상 형식과 일치하는 범위에 이름이 같은 함수가 없습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_crt.cpp(84): error C2664: 'HWND CreateDialogParamA(HINSTANCE,LPCSTR,HWND,DLGPROC,LPARAM)': 인수 4을(를) 'BOOL (__cdecl *)(HWND,UINT,WPARAM,LPARAM)'에서 'DLGPROC'(으)로 변환할 수 없습니다.
+  c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_crt.cpp(84): note: 대상 형식과 일치하는 범위에 이름이 같은 함수가 없습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_crt.cpp(433): error C2664: 'INT_PTR DialogBoxParamA(HINSTANCE,LPCSTR,HWND,DLGPROC,LPARAM)': 인수 4을(를) 'BOOL (__cdecl *)(HWND,UINT,WPARAM,LPARAM)'에서 'DLGPROC'(으)로 변환할 수 없습니다.
+  c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_crt.cpp(433): note: 대상 형식과 일치하는 범위에 이름이 같은 함수가 없습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_crt.cpp(884): warning C4244: '인수': 'DWORD'에서 'TCHAR'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_crt.cpp(930): warning C4244: '인수': 'DWORD'에서 'TCHAR'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_crt.cpp(957): warning C4244: '인수': 'DWORD'에서 'TCHAR'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_crt.cpp(988): warning C4244: '인수': 'DWORD'에서 'TCHAR'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_crt.cpp(1067): warning C4244: '인수': 'DWORD'에서 'TCHAR'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_crt.cpp(1069): warning C4244: '=': 'LRESULT'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_crt.cpp(1074): warning C4244: '=': 'LRESULT'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_crt.cpp(1087): warning C4244: '인수': 'DWORD'에서 'TCHAR'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_crt.cpp(1114): warning C4244: '인수': 'DWORD'에서 'TCHAR'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_crt.cpp(1141): warning C4244: '인수': 'DWORD'에서 'TCHAR'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_crt.cpp(1156): warning C4244: '인수': 'DWORD'에서 'TCHAR'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_crt.cpp(1174): warning C4244: '인수': 'DWORD'에서 'TCHAR'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_crt.cpp(1193): warning C4244: '인수': 'DWORD'에서 'TCHAR'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_crt.cpp(1205): warning C4244: '인수': 'DWORD'에서 'TCHAR'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_crt.cpp(1217): warning C4244: '인수': 'DWORD'에서 'TCHAR'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_crt.cpp(1229): warning C4244: '인수': 'DWORD'에서 'TCHAR'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_crt.cpp(1242): warning C4244: '인수': 'DWORD'에서 'TCHAR'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_crt.cpp(1251): warning C4244: '인수': 'DWORD'에서 'TCHAR'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_crt.cpp(1260): warning C4244: '인수': 'DWORD'에서 'TCHAR'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_crt.cpp(1269): warning C4244: '인수': 'DWORD'에서 'TCHAR'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_crt.cpp(1278): warning C4244: '인수': 'DWORD'에서 'TCHAR'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_crt.cpp(1699): warning C4244: '=': 'LRESULT'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_crt.cpp(1714): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\procedure_crt.cpp(1789): warning C4244: '=': 'LRESULT'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+c:\users\sohno\source\repos\apiexam\decos_alpha\myfunc.cpp(200): warning C4715: 'H2ValuetoShort': 모든 제어 경로에서 값을 반환하지는 않습니다.
+c:\users\sohno\source\repos\apiexam\decos_alpha\coordinatorreal.cpp(289): warning C4715: 'CoordinatorReal::ProcessING': 모든 제어 경로에서 값을 반환하지는 않습니다.

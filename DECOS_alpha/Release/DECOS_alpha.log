@@ -1,0 +1,77 @@
+﻿  CoordinatorReal.cpp
+  CRC.cpp
+  DEAPIProtocol.cpp
+  DECOS_alpha.cpp
+  Equipment_REMS.cpp
+c:\users\sohno\source\repos\myapiprogram\decos_alpha\equipment_rems.cpp(36): warning C4838: 'int'에서 'const short'(으)로의 변환에는 축소 변환이 필요합니다.
+c:\users\sohno\source\repos\myapiprogram\decos_alpha\equipment_rems.cpp(36): warning C4309: '초기화 중': 상수 값이 잘립니다.
+  Inverter_ABBI.cpp
+  Inverter_DASS.cpp
+  Inverter_EKOS.cpp
+c:\users\sohno\source\repos\myapiprogram\decos_alpha\inverter_ekos.cpp(42): warning C4838: 'int'에서 'const short'(으)로의 변환에는 축소 변환이 필요합니다.
+c:\users\sohno\source\repos\myapiprogram\decos_alpha\inverter_ekos.cpp(42): warning C4309: '초기화 중': 상수 값이 잘립니다.
+c:\users\sohno\source\repos\myapiprogram\decos_alpha\inverter_ekos.cpp(70): warning C4333: '>>': 오른쪽 시프트 횟수가 너무 커 데이터가 손실됩니다.
+  Inverter_E_P3.cpp
+  Inverter_E_P5.cpp
+  Inverter_HANS.cpp
+  Inverter_HEXP.cpp
+  Inverter_REFU.cpp
+c:\users\sohno\source\repos\myapiprogram\decos_alpha\inverter_refu.cpp(61): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Inverter_SUNG.cpp
+c:\users\sohno\source\repos\myapiprogram\decos_alpha\inverter_sung.cpp(42): warning C4838: 'int'에서 'const short'(으)로의 변환에는 축소 변환이 필요합니다.
+c:\users\sohno\source\repos\myapiprogram\decos_alpha\inverter_sung.cpp(42): warning C4309: '초기화 중': 상수 값이 잘립니다.
+  Inverter_WILL.cpp
+c:\users\sohno\source\repos\myapiprogram\decos_alpha\inverter_will.cpp(76): warning C4333: '>>': 오른쪽 시프트 횟수가 너무 커 데이터가 손실됩니다.
+c:\users\sohno\source\repos\myapiprogram\decos_alpha\inverter_will.cpp(90): warning C4333: '>>': 오른쪽 시프트 횟수가 너무 커 데이터가 손실됩니다.
+c:\users\sohno\source\repos\myapiprogram\decos_alpha\inverter_will.cpp(108): warning C4333: '>>': 오른쪽 시프트 횟수가 너무 커 데이터가 손실됩니다.
+c:\users\sohno\source\repos\myapiprogram\decos_alpha\inverter_will.cpp(109): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  MyDevice.cpp
+  DlgProc_AddDevice.cpp
+  DlgProc_ConnectTerminal.cpp
+  DlgProc_Coordi.cpp
+c:\users\sohno\source\repos\myapiprogram\decos_alpha\dlgproc_coordi.cpp(642): warning C4244: '인수': 'DWORD'에서 'TCHAR'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\myapiprogram\decos_alpha\dlgproc_coordi.cpp(688): warning C4244: '인수': 'DWORD'에서 'TCHAR'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\myapiprogram\decos_alpha\dlgproc_coordi.cpp(715): warning C4244: '인수': 'DWORD'에서 'TCHAR'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\myapiprogram\decos_alpha\dlgproc_coordi.cpp(745): warning C4244: '인수': 'DWORD'에서 'TCHAR'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\myapiprogram\decos_alpha\dlgproc_coordi.cpp(828): warning C4244: '인수': 'DWORD'에서 'TCHAR'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\myapiprogram\decos_alpha\dlgproc_coordi.cpp(848): warning C4244: '인수': 'DWORD'에서 'TCHAR'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\myapiprogram\decos_alpha\dlgproc_coordi.cpp(875): warning C4244: '인수': 'DWORD'에서 'TCHAR'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\myapiprogram\decos_alpha\dlgproc_coordi.cpp(902): warning C4244: '인수': 'DWORD'에서 'TCHAR'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\myapiprogram\decos_alpha\dlgproc_coordi.cpp(917): warning C4244: '인수': 'DWORD'에서 'TCHAR'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\myapiprogram\decos_alpha\dlgproc_coordi.cpp(938): warning C4244: '인수': 'DWORD'에서 'TCHAR'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\myapiprogram\decos_alpha\dlgproc_coordi.cpp(957): warning C4244: '인수': 'DWORD'에서 'TCHAR'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\myapiprogram\decos_alpha\dlgproc_coordi.cpp(970): warning C4244: '인수': 'DWORD'에서 'TCHAR'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\myapiprogram\decos_alpha\dlgproc_coordi.cpp(982): warning C4244: '인수': 'DWORD'에서 'TCHAR'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\myapiprogram\decos_alpha\dlgproc_coordi.cpp(994): warning C4244: '인수': 'DWORD'에서 'TCHAR'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\myapiprogram\decos_alpha\dlgproc_coordi.cpp(1007): warning C4244: '인수': 'DWORD'에서 'TCHAR'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\myapiprogram\decos_alpha\dlgproc_coordi.cpp(1016): warning C4244: '인수': 'DWORD'에서 'TCHAR'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\myapiprogram\decos_alpha\dlgproc_coordi.cpp(1025): warning C4244: '인수': 'DWORD'에서 'TCHAR'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\myapiprogram\decos_alpha\dlgproc_coordi.cpp(1034): warning C4244: '인수': 'DWORD'에서 'TCHAR'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\myapiprogram\decos_alpha\dlgproc_coordi.cpp(1043): warning C4244: '인수': 'DWORD'에서 'TCHAR'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\myapiprogram\decos_alpha\dlgproc_coordi.cpp(1057): warning C4244: '인수': 'DWORD'에서 'TCHAR'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\sohno\source\repos\myapiprogram\decos_alpha\dlgproc_coordi.cpp(1466): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다.
+  DlgProc_Etc.cpp
+  컴파일하고 있습니다...
+  DlgProc_HostPC.cpp
+  DlgProc_Inverter.cpp
+c:\users\sohno\source\repos\myapiprogram\decos_alpha\dlgproc_inverter.cpp(152): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  MyDeviceHandler.cpp
+  MyFunc.cpp
+c:\users\sohno\source\repos\myapiprogram\decos_alpha\myfunc.cpp(226): warning C4309: 'return': 상수 값이 잘립니다.
+c:\users\sohno\source\repos\myapiprogram\decos_alpha\myfunc.cpp(235): warning C4309: 'return': 상수 값이 잘립니다.
+c:\users\sohno\source\repos\myapiprogram\decos_alpha\myfunc.cpp(240): warning C4309: 'return': 상수 값이 잘립니다.
+  MyTcp.cpp
+c:\users\sohno\source\repos\myapiprogram\decos_alpha\mytcp.cpp(109): warning C4838: 'DWORD'에서 'long'(으)로의 변환에는 축소 변환이 필요합니다.
+  Procedure_CLB.cpp
+  Procedure_CLT.cpp
+c:\users\sohno\source\repos\myapiprogram\decos_alpha\procedure_clt.cpp(88): warning C4244: '인수': 'LRESULT'에서 'UCHAR'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Procedure_CRB.cpp
+  Procedure_CRT.cpp
+  SerialComm.cpp
+  SerialCommHandler.cpp
+  코드를 생성하고 있습니다.
+  53 of 268 functions (19.8%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    6 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  DECOS_alpha.vcxproj -> C:\Users\sohno\source\repos\MyAPIProgram\Release\DECOS_alpha.exe

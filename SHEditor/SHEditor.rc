@@ -1,0 +1,114 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어(대한민국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCELERATOR1 ACCELERATORS
+BEGIN
+    "C",            IDM_EDIT_COPY,          VIRTKEY, CONTROL, NOINVERT
+    "X",            IDM_EDIT_CUT,           VIRTKEY, CONTROL, NOINVERT
+    "V",            IDM_EDIT_PASTE,         VIRTKEY, CONTROL, NOINVERT
+    "Z",            IDM_EDIT_UNDO,          VIRTKEY, CONTROL, NOINVERT
+    "T",            IDM_VIEW_ZORDER,        VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "파일(&F)"
+    BEGIN
+        MENUITEM "새파일(&N)",                     IDM_FILE_NEW
+        MENUITEM "읽기(&O)",                      IDM_FILE_LOAD
+        MENUITEM "쓰기(&S)",                      IDM_FILE_SAVE
+        MENUITEM "다른 이름으로 저장(&A)",              IDM_FILE_SAVEAS
+        MENUITEM SEPARATOR
+        MENUITEM "끝내기(&X)",                     IDM_FILE_EXIT
+    END
+    POPUP "편집(&E)"
+    BEGIN
+        MENUITEM "취소(&U)\tCtrl+Z",              IDM_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "잘라내기(&T)\tCtrl+X",            IDM_EDIT_CUT
+        MENUITEM "복사(&C)\tCtrl+C",              IDM_EDIT_COPY
+        MENUITEM "붙이기(&P)\tCtrl+V",             IDM_EDIT_PASTE
+        MENUITEM "삭제(&L)\tDel",                 IDM_EDIT_DEL
+        MENUITEM SEPARATOR
+        MENUITEM "전체 선택(&A)",                   IDM_EDIT_SELALL
+    END
+    POPUP "도움말(&H)"
+    BEGIN
+        MENUITEM "프로그램 소개(&A)",                 IDM_HELP_ABOUT
+    END
+    POPUP "보기(&V)"
+    BEGIN
+        MENUITEM "Z순서(TOP)\tCtrl+T",            IDM_VIEW_ZORDER
+    END
+END
+
+#endif    // 한국어(대한민국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

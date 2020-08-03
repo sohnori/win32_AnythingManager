@@ -1,0 +1,7 @@
+﻿  MyDataAnalyzer.cpp
+c:\users\sohno\source\repos\myapiprogram\mydataanalyzer\mydataanalyzer.cpp(46): warning C4101: 'hdc' :참조되지 않은 지역 변수입니다.
+c:\users\sohno\source\repos\myapiprogram\mydataanalyzer\mydataanalyzer.cpp(47): warning C4101: 'ps' :참조되지 않은 지역 변수입니다.
+  코드를 생성하고 있습니다.
+  All 5 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  MyDataAnalyzer.vcxproj -> C:\Users\sohno\source\repos\MyAPIProgram\Release\MyDataAnalyzer.exe

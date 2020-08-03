@@ -1,0 +1,4 @@
+﻿  건너뛰고 있습니다... (관련된 변경 내용 없음)
+  SHEditor.cpp
+SHEditor.obj : warning LNK4075: '/EDITANDCONTINUE'이(가) '/SAFESEH' 사양으로 인해 무시됩니다.
+  SHEditor.vcxproj -> C:\Users\sohno\source\repos\MyAPIProgram\Debug\SHEditor.exe

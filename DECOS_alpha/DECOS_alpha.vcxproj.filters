@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="인버터소스">
+      <UniqueIdentifier>{370754ef-f71f-4ce3-af72-8721c3e55f60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="인버터헤더">
+      <UniqueIdentifier>{a2d8b34b-e8ae-4937-a051-4d98b65bb860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyClass">
+      <UniqueIdentifier>{6760ef23-4968-4ba7-b397-6a48d3b85c99}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DECOS_alpha.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Procedure_CLT.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Procedure_CLB.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Procedure_CRT.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Procedure_CRB.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MyFunc.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CoordinatorReal.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DEAPIProtocol.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CRC.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgProc_AddDevice.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgProc_ConnectTerminal.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgProc_HostPC.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgProc_Inverter.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgProc_Etc.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgProc_Coordi.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MyDevice.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MyDeviceHandler.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Equipment_REMS.cpp">
+      <Filter>인버터소스</Filter>
+    </ClCompile>
+    <ClCompile Include="Inverter_ABBI.cpp">
+      <Filter>인버터소스</Filter>
+    </ClCompile>
+    <ClCompile Include="Inverter_DASS.cpp">
+      <Filter>인버터소스</Filter>
+    </ClCompile>
+    <ClCompile Include="Inverter_E_P3.cpp">
+      <Filter>인버터소스</Filter>
+    </ClCompile>
+    <ClCompile Include="Inverter_E_P5.cpp">
+      <Filter>인버터소스</Filter>
+    </ClCompile>
+    <ClCompile Include="Inverter_EKOS.cpp">
+      <Filter>인버터소스</Filter>
+    </ClCompile>
+    <ClCompile Include="Inverter_HANS.cpp">
+      <Filter>인버터소스</Filter>
+    </ClCompile>
+    <ClCompile Include="Inverter_HEXP.cpp">
+      <Filter>인버터소스</Filter>
+    </ClCompile>
+    <ClCompile Include="Inverter_REFU.cpp">
+      <Filter>인버터소스</Filter>
+    </ClCompile>
+    <ClCompile Include="Inverter_SUNG.cpp">
+      <Filter>인버터소스</Filter>
+    </ClCompile>
+    <ClCompile Include="Inverter_WILL.cpp">
+      <Filter>인버터소스</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialComm.cpp">
+      <Filter>MyClass</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialCommHandler.cpp">
+      <Filter>MyClass</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTcp.cpp">
+      <Filter>MyClass</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DECOS_alpha.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedure_CLB.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedure_CLT.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedure_CRT.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedure_CRB.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFunc.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CoordinatorReal.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DEAPIProtocol.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CRC.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgProc_AddDevice.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgProc_ConnectTerminal.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgProc_HostPC.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgProc_Inverter.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgProc_Etc.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgProc_Coordi.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDevice.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDeviceHandler.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Equipment_REMS.h">
+      <Filter>인버터헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Inverter_ABBI.h">
+      <Filter>인버터헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Inverter_DASS.h">
+      <Filter>인버터헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Inverter_E_P3.h">
+      <Filter>인버터헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Inverter_E_P5.h">
+      <Filter>인버터헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Inverter_EKOS.h">
+      <Filter>인버터헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Inverter_HANS.h">
+      <Filter>인버터헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Inverter_HEXP.h">
+      <Filter>인버터헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Inverter_REFU.h">
+      <Filter>인버터헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Inverter_SUNG.h">
+      <Filter>인버터헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Inverter_WILL.h">
+      <Filter>인버터헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialCommHandler.h">
+      <Filter>MyClass</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialComm.h">
+      <Filter>MyClass</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTcp.h">
+      <Filter>MyClass</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DECOS_alpha.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cursor1.cur">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="대은로고_축소2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
